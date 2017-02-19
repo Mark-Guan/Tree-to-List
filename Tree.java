@@ -4,7 +4,6 @@
  * larger value;
  * 
  * Mark Guan
- * Period 6
  * May 21, 2014
  */
 
@@ -153,8 +152,7 @@ public class Tree {
        if(node == null){
     	   return null;
        }
-       
-       
+      
        TreeNode leftSide = treeToList(node.getLeft());
        TreeNode rightSide = treeToList(node.getRight());
     	
@@ -182,19 +180,20 @@ public class Tree {
         
         System.out.println();
     }
-	 
-	 public static void main( String [] args){
-		 Tree bsTree = new Tree();
-		 bsTree.add(new Integer(5));
-		 bsTree.add(new Integer(3));
-		 bsTree.add(new Integer(4));
-		 bsTree.add(new Integer(1));
-		 bsTree.add(new Integer(8));
-		 bsTree.add(new Integer(-2));
 
-		 bsTree.treeToList();
-		 
-		 bsTree.printList();
-	 }
+	 
+	//test code
+    public static void main( String [] args){
+    	Tree bsTree = new Tree();
+	bsTree.add(new Integer(5));
+	bsTree.add(new Integer(3));
+	bsTree.add(new Integer(4));
+	bsTree.add(new Integer(1));
+	bsTree.add(new Integer(8));
+	bsTree.add(new Integer(-2));
+
+	bsTree.treeToList();
+	bsTree.printList();
+    }
 	
 }

@@ -5,7 +5,6 @@
  * larger value;
  * 
  * Mark Guan
- * Period 6
  * May 21, 2014
  */
 

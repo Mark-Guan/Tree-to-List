@@ -1,7 +1,8 @@
 /*
- * This class represents a Binary search tree, where every Node has two children,
+ * This class represents a binary search tree, where every Node has two children,
  * the left child must contain a smaller value, and the right child must contain a 
- * larger value;
+ * larger value. 
+ * This binary search tree is unique as it can be converted into a linked list.
  * 
  * Mark Guan
  * May 21, 2014
